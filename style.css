@@ -22,19 +22,21 @@ header {
 }
 
 h1 {
+  font-size: 2rem;
   line-height: 1.2;
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
 }
 
 h2 {
   line-height: 1.2;
-  margin: 0px;
+  margin: 0;
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.5;
-  margin-bottom: 16px;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 strong {
@@ -45,36 +47,26 @@ strong {
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
   max-width: 800px;
 }
 
 .intro-chunk {
-  max-width: 400px;
+  max-width: 415px;
   padding: 98px 24px 64px 24px;
 }
 
 .card {
   background-color: hsl(0deg, 0%, 100%);
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 8px;
-  padding-bottom: 24px;
+  padding: 24px;
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 
 .indented-heading {
+  margin-top: -16px;
   margin-left: -32px;
+  margin-bottom: 1rem;
   padding: 16px 32px;
   display: inline-block;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
-}
-
-@media only screen and (max-width: 1023px) {
-  .max-width-wrapper {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-  }
 }
